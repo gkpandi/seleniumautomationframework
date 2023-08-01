@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41317" started-at="2023-08-01T09:49:00Z" finished-at="2023-08-01T09:49:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41317" started-at="2023-08-01T09:49:00Z" finished-at="2023-08-01T09:49:41Z">
+      <class name="testcases.SanityTest">
+        <test-method status="PASS" signature="beforeTestMethod()[pri:0, instance:testcases.SanityTest@6eebc39e]" name="beforeTestMethod" is-config="true" duration-ms="182" started-at="2023-08-01T15:19:00Z" finished-at="2023-08-01T15:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="8753" started-at="2023-08-01T15:19:00Z" finished-at="2023-08-01T15:19:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.SanityTest.runSanityTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runSanityTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="runSanityTest" duration-ms="6233" started-at="2023-08-01T15:19:09Z" data-provider="userlogin" finished-at="2023-08-01T15:19:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gkpandi1982@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSanityTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="afterMethod" is-config="true" duration-ms="675" started-at="2023-08-01T15:19:15Z" finished-at="2023-08-01T15:19:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runSanityTest status=SUCCESS method=SanityTest.runSanityTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="5458" started-at="2023-08-01T15:19:16Z" finished-at="2023-08-01T15:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.SanityTest.runSanityTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runSanityTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="runSanityTest" duration-ms="5960" started-at="2023-08-01T15:19:21Z" data-provider="userlogin" finished-at="2023-08-01T15:19:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sampleuser2023@hotmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSanityTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="afterMethod" is-config="true" duration-ms="660" started-at="2023-08-01T15:19:27Z" finished-at="2023-08-01T15:19:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runSanityTest status=SUCCESS method=SanityTest.runSanityTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="6165" started-at="2023-08-01T15:19:28Z" finished-at="2023-08-01T15:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.SanityTest.runSanityTest(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runSanityTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="runSanityTest" duration-ms="6269" started-at="2023-08-01T15:19:34Z" data-provider="userlogin" finished-at="2023-08-01T15:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[superadminuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSanityTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.SanityTest@6eebc39e]" name="afterMethod" is-config="true" duration-ms="662" started-at="2023-08-01T15:19:41Z" finished-at="2023-08-01T15:19:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runSanityTest status=SUCCESS method=SanityTest.runSanityTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.SanityTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.SanityTest@6eebc39e]" name="afterTest" is-config="true" duration-ms="212" started-at="2023-08-01T15:19:41Z" finished-at="2023-08-01T15:19:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.SanityTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
